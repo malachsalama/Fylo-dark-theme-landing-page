@@ -50,21 +50,6 @@ header {
   padding: 2rem;
 }
 
-header::after {
-  background: url(../images/bg-curvy-mobile.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  transform: rotate(180deg);
-  z-index: -1;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -79,7 +64,7 @@ header::after {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   cursor: pointer;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .nav-menu ul li:hover {
@@ -87,7 +72,7 @@ header::after {
 }
 
 .logo {
-  width: 20%;
+  width: 30%;
 }
 
 .intro {
@@ -243,7 +228,7 @@ footer {
 
 .footer-logo {
   margin: 0 1rem;
-  width: 40%;
+  width: 50%;
 }
 
 .footer-content ul li:nth-child(1) {
